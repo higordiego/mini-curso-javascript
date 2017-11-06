@@ -20,4 +20,68 @@
 // antiga
 // console.log(primeiroNome+'-'+segundoNome)
 // nova
-// console.log(`${primeiroNome}-${segundoNome}`)
+// console.log(`${primeiroNome}-${segundoNome}`
+
+// for
+// forEach
+// map
+
+// let index = 3
+
+// if(nome.length > index){
+//     console.log(nome[index])
+// }
+
+
+// for (let index = 0; index < nome.length; index++) {
+//     console.log(nome[index])
+// }
+
+
+// nome.forEach(function(element) {
+//     console.log(element)
+// });
+
+// let nome = ['Higor', 'Ju', 'Mikaella', 'Rogerio']
+
+
+// nome.map(function(valor, index) {
+//     console.log('O index é: ' + index + ' valor é: ' + valor )
+// })
+
+
+// let lista = [
+//     {
+//         nome: 'Higor',
+//         idade: 30
+//     },
+//     {
+//         nome: 'Ju',
+//         idade: 19
+//     },
+//     {
+//         nome: 'Mikaella',
+//         idade: 23
+//     }
+// ]
+
+// let index = 0;
+// console.log(lista[index].nome)
+
+// for (let index = 0; index < lista.length; index++) {
+//     if(lista[index].idade > 20){
+//         console.log('é maior que 20' + ' Nome: ' + lista[index].nome)
+//     }
+// }
+
+// lista.forEach(function(element, index) {
+//     if(element.idade > 20){
+//         console.log('é maior que 20 de index: ' +index + ' Nome: ' + element.nome)
+//     }
+// });
+
+// lista.map(function(valor, index){
+//     if(valor.idade > 20){
+//         console.log('é maior que 20 de index: ' + index  + ' Nome: ' + valor.nome)
+//     }
+// })
