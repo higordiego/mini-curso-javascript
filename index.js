@@ -85,3 +85,17 @@
 //         console.log('é maior que 20 de index: ' + index  + ' Nome: ' + valor.nome)
 //     }
 // })
+
+// var lista = [1,2,3,4,5,6,7]
+
+
+// var resposta = lista.filter(function(valor, index) {
+//     if(valor > 3){
+//         return valor
+//     }
+// })
+
+
+
+
+
