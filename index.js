@@ -95,7 +95,64 @@
 //     }
 // })
 
+// find -> Filter
+// some -> Filter
+// every  -> filter
 
 
+var lista = [1, 2, 3, 4, 5, 6]
+// um retorna só um elemento
+// var resposta = lista.find(function(valor){
+//     if(valor === 3) return valor 
+// })
 
+// retorna um boolean informando true ou false caso tenha ou não.
+// var resposta = lista.some(function(valor){
+//     if(valor === 3 ) return valor
+// })
+// retorna um boolean informando false ou true caso tenha ou não.
+// var resposta = lista.every(function(valor){
+//         if(valor === 3) return valor
+// })
+// console.log(resposta)
 
+// function recebe(numero) {
+//     return new Promise(function (resolve, reject) {
+//         if (18 === numero) {
+//             resolve({
+//                 mensagem: 'é igual'
+//             })
+//         } else {
+//             reject({
+//                 mensagem: 'não é igual'
+//             })
+//         }
+//     })
+// }
+
+// recebe(19)
+//     .then(function(sucesso) {
+//         console.log('cair no then: ', sucesso)
+//     })
+//     .catch(function(errr) {
+//         console.log('cair no catch:', errr)
+//     })
+
+// var axios = require('axios')
+
+// var configuracao = {
+//     url: 'https://jsonplaceholder.typicode.com/posts',
+//     method: 'GET'
+// }
+
+// function resposta(response){
+//     var lista = response.data;
+//     lista = lista.filter(function(valor){
+//         if(valor.id > 90) return valor
+//     })
+//     console.log(lista)
+// }
+
+// axios(configuracao)
+//     .then(resposta)
+//     .catch(function(err){console.log(err)})
